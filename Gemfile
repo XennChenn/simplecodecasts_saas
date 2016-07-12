@@ -8,6 +8,8 @@ gem 'sqlite3'
 #Use bootstrap library for styles
 gem 'bootstrap-sass', '~>3.3.1'
 # Use Puma as the app server
+gem 'font-awesome-sass', '~> 4.6.2'
+
 gem 'puma', '~> 3.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'

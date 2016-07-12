@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>SimplecodercastSaas</title>
+    <title>Dev Match</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -19,7 +19,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">SaaS</a>
+      <%= link_to root_path, class: "navbar-brand" do %>
+      <i class="fa fa-users navbar-brand"></i>
+      Dev Match
+      <% end %>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
